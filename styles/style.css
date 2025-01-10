@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Fira Sans", serif;
+    background-color: #F1F1F3;
+}
+
+
+
+/* Banner styles start here */
+
+.banner{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 80px 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+
+.banner-left{
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+.banner-img{
+    width: 475px;
+}
+
+.banner-title{
+    font-size: 56px;
+    font-weight: 700px;
+}
+
+.banner-name{
+    color: #6A7972;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+}
+
+.banner-btn{
+    padding: 17px 34px;
+    color: white;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 600px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+}
+
+.banner-btn:hover{
+    background-color: #FFC239;
+}
