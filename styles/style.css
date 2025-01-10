@@ -7,7 +7,7 @@
 }
 body{
     font-family: "Fira Sans", serif;
-    background-color: #F1F1F3;
+    background-color: #F5F5F5;
 }
 
 
@@ -68,7 +68,7 @@ body{
     max-width: 1330px;
     margin: auto;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 32px;
 }
 
 .future-title{
@@ -78,7 +78,7 @@ body{
 }
 
 .future-para{
-    color: #8A8A8A;
+    color: #797979;
     margin-bottom: 32px;
 }
 
@@ -116,6 +116,9 @@ body{
     margin-top: 24px;
 }
 
+.card-btn-1:hover{
+    background-color: red;
+}
 .card-btn-2{
     padding: 11px 20px;
     border-radius: 8px;
@@ -124,6 +127,10 @@ body{
     background-color: #09A15C;
     border: none;
     margin-top: 48px;
+}
+
+.card-btn-2:hover{
+    background-color: red;
 }
 .card-btn-3{
     padding: 11px 20px;
@@ -134,8 +141,13 @@ body{
     border: none;
     margin-top: 48px;
 }
+
+.card-btn-3:hover{
+    background-color: red;
+}
+
 .card-para{
-    color: #8A8A8A;
+    color: #797979;
 }
 
 
@@ -151,3 +163,100 @@ body{
     background-color: #F7EBCF;
 }
 
+
+/* Quote section styles here*/
+
+.quote{
+    padding: 48px 24px;
+    max-width: 1280px;
+    margin: auto;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 16px;
+    /* background-size: auto; */
+}
+
+.quote-para{
+    color: #3E3E3E;
+    margin-bottom: 12px;
+    line-height: 24px;
+}
+
+.quote-title{
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 4px;
+}
+
+.quote-role{
+    color: #909090;
+    margin-top: 8px;
+}
+
+
+/* The news styles here */
+
+.news{
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.news-heading{
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 24px;
+}
+
+.news-card-1{
+    padding: 48px;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    gap: 32px;
+    margin-bottom: 24px;
+    
+}
+
+.news-date{
+    display: flex;
+    gap: 12px;
+    color: #797979;
+    margin-bottom: 18px;
+    margin-top: 16px;
+}
+
+.news-para{
+    color: #797979;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+.news-title{
+    font-size: 32px;
+    font-weight: 700px;
+    color: #3E3E3E;
+    margin-bottom: 12px;
+}
+
+.satelite-img{
+    border-radius: 24px;
+    width: 400px;
+    height: 300px;
+}
+
+.news-btn{
+    padding: 13px 26px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600px;
+    background-color: #006A50;
+    border: none;
+}
+
+.news-btn:hover{
+    background-color: red;
+}
