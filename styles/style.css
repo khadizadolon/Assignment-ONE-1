@@ -319,10 +319,12 @@ body{
     border: none;
     text-align: center;
     font-size: 20px;
-    color: #B7B7B7;
     margin-left: 150px;
 }
 
+.donate-input::placeholder{
+    color: #B7B7B7;
+}
 .donate-btn{
     padding: 17px 34px;
     border-radius: 8px;
@@ -379,8 +381,12 @@ body{
     padding:18px 400px 18px 40px;
     border-bottom-left-radius:8px ;
     border-top-left-radius: 8px;
-    color: #B7B7B7;
+    
 
+}
+
+.newsletter-input::placeholder{
+    color: #B7B7B7;
 }
 
 .newsletter-btn{
