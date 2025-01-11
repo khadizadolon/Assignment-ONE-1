@@ -170,17 +170,19 @@ body{
     padding: 24px 24px;
     max-width: 1280px;
     margin: auto;
-    
-    
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-position-y: 24px;
     background-color: white;
     border-radius: 16px;
     border: 1px solid #DBDBDB;
 }
 
-.quote-bg{
+/* .quote-bg{
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
-}
+} */
 .quote-para{
     color: #3E3E3E;
     margin-bottom: 12px;
