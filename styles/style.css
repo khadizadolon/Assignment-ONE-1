@@ -10,12 +10,35 @@ body{
     background-color: #F5F5F5;
 }
 
+/* Navbar styles here */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.nav-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav-btn{
+    padding: 15px 30px;
+    color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600px;
+    border: 1px solid #1F7B64;
+}
 
 
 /* Banner styles start here */
 
 .banner{
-    max-width: 1230px;
+    max-width: 1200px;
     margin: auto;
     margin-top: 50px;
     padding: 80px 60px;
