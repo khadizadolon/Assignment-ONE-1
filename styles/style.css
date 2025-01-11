@@ -334,10 +334,15 @@ body{
     border: 1px solid #DBDBDB;
 }
 
-.donate-card:hover{
-    
+.donate-card-bg{
     background-color:#C6E4D6;
 }
+
+.donate-card:hover{
+    
+    background-color:#006A50;
+}
+
 .donate-input{
     width: 76%;
     padding: 20px 0;
